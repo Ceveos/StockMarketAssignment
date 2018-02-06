@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">180.0dip</dimen>
+    <dimen name="text_margin">16.0dip</dimen>
+    <dimen name="fab_margin">16.0dip</dimen>
+</resources>

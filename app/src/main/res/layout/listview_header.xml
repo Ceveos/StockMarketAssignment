@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:divider="@color/colorPrimaryDark"
+    android:dividerPadding="15.0dip"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:text="@string/date"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#ffddffdd"
+        android:text="@string/open"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:text="@string/high"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#ffddffdd"
+        android:text="@string/low"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:text="@string/closed"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:background="#ffddffdd"
+        android:text="@string/volume"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adjclosed"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+</LinearLayout>

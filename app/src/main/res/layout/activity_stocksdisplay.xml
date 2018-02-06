@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout xmlns:n2="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?colorPrimary"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_weight="1.0"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton xmlns:n3="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#ffffffff"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/recycler_view"
+        app:layout_anchorGravity="bottom|center|right"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    <android.support.v7.widget.AppCompatTextView xmlns:n4="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/error_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/error_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24.0sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_anchorGravity="center_vertical"
+        android:textAllCaps="false" />
+
+    <android.support.v7.widget.AppCompatTextView xmlns:n4="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/timeout_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/timeout_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24.0sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_anchorGravity="center_vertical"
+        android:textAllCaps="false" />
+
+    <android.support.v7.widget.RecyclerView xmlns:n5="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true"
+        android:scrollbars="vertical"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="fill"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <include xmlns:n6="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/include2"
+        layout="@layout/listview_header"
+        android:layout_width="fill_parent"
+        android:layout_height="18.0dip"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <include xmlns:n7="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_overlay"
+        layout="@layout/include_progress_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:visibility="gone"
+        app:layout_anchorGravity="fill"
+        app:layout_collapseMode="pin"
+        app:layout_collapseParallaxMultiplier="1.0" />
+</android.support.design.widget.CoordinatorLayout>

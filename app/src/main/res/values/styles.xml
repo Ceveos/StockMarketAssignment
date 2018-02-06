@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="@style/ThemeOverlay.AppCompat.Light" />
+    <style name="TextAppearance.AppCompat" parent="@style/Base.TextAppearance.AppCompat" />
+    <style name="TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat.Body1" />
+    <style name="TextAppearance.AppCompat.Body2" parent="@style/Base.TextAppearance.AppCompat.Body2" />
+    <style name="TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat.Button" />
+    <style name="TextAppearance.AppCompat.Caption" parent="@style/Base.TextAppearance.AppCompat.Caption" />
+    <style name="TextAppearance.AppCompat.Display1" parent="@style/Base.TextAppearance.AppCompat.Display1" />
+    <style name="TextAppearance.AppCompat.Display2" parent="@style/Base.TextAppearance.AppCompat.Display2" />
+    <style name="TextAppearance.AppCompat.Display3" parent="@style/Base.TextAppearance.AppCompat.Display3" />
+    <style name="TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat.Display4" />
+    <style name="TextAppearance.AppCompat.Headline" parent="@style/Base.TextAppearance.AppCompat.Headline" />
+    <style name="TextAppearance.AppCompat.Inverse" parent="@style/Base.TextAppearance.AppCompat.Inverse" />
+    <style name="TextAppearance.AppCompat.Large" parent="@style/Base.TextAppearance.AppCompat.Large" />
+    <style name="TextAppearance.AppCompat.Large.Inverse" parent="@style/Base.TextAppearance.AppCompat.Large.Inverse" />
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle" parent="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="@style/TextAppearance.AppCompat.SearchResult.Title" />
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large" />
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+    <style name="TextAppearance.AppCompat.Medium" parent="@style/Base.TextAppearance.AppCompat.Medium" />
+    <style name="TextAppearance.AppCompat.Medium.Inverse" parent="@style/Base.TextAppearance.AppCompat.Medium.Inverse" />
+    <style name="TextAppearance.AppCompat.Menu" parent="@style/Base.TextAppearance.AppCompat.Menu" />
+    <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.AppCompat.Notification.Info" parent="@style/TextAppearance.AppCompat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification.Line2" parent="@style/TextAppearance.AppCompat.Notification.Info" />
+    <style name="TextAppearance.AppCompat.Notification.Media" parent="@style/TextAppearance.AppCompat.Notification" />
+    <style name="TextAppearance.AppCompat.Notification.Time" parent="@style/TextAppearance.AppCompat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle" />
+    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
+    <style name="TextAppearance.AppCompat.Small" parent="@style/Base.TextAppearance.AppCompat.Small" />
+    <style name="TextAppearance.AppCompat.Small.Inverse" parent="@style/Base.TextAppearance.AppCompat.Small.Inverse" />
+    <style name="TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat.Subhead" />
+    <style name="TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead.Inverse" />
+    <style name="TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat.Title" />
+    <style name="TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+    <style name="TextAppearance.AppCompat.Widget.Button" parent="@style/Base.TextAppearance.AppCompat.Widget.Button" />
+    <style name="TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
+    <style name="TextAppearance.AppCompat.Widget.Button.Colored" parent="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored" />
+    <style name="TextAppearance.AppCompat.Widget.Button.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.Button.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="@style/Base.TextAppearance.AppCompat.Widget.DropDownItem" />
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Header" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header" />
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" />
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+    <style name="TextAppearance.AppCompat.Widget.Switch" parent="@style/Base.TextAppearance.AppCompat.Widget.Switch" />
+    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" />
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@style/TextAppearance.Compat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media" />
+    <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@style/TextAppearance.Compat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title" />
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Design.Counter" parent="@style/TextAppearance.AppCompat.Caption" />
+    <style name="TextAppearance.Design.Counter.Overflow" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/design_error</item>
+    </style>
+    <style name="TextAppearance.Design.Error" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/design_error</item>
+    </style>
+    <style name="TextAppearance.Design.Hint" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?colorControlActivated</item>
+    </style>
+    <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/design_snackbar_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Design.Tab" parent="@style/TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/design_tab_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
+    <style name="Theme.AppCompat.CompactMenu" parent="@style/Base.Theme.AppCompat.CompactMenu" />
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat.Light" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Light.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Light.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.Light.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.AppCompat.Dialog" parent="@style/Base.Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.Dialog.Alert" parent="@style/Base.Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.Dialog.MinWidth" parent="@style/Base.Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.Light" parent="@style/Base.Theme.AppCompat.Light" />
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+    <style name="Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light.Dialog" />
+    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert" />
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="@style/Base.Theme.AppCompat.Light.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.DialogWhenLarge" />
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.NoActionBar" parent="@style/Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Design" parent="@style/Theme.AppCompat">
+        <item name="textColorError">?colorError</item>
+    </style>
+    <style name="Theme.Design.BottomSheetDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light" parent="@style/Theme.AppCompat.Light">
+        <item name="textColorError">?colorError</item>
+    </style>
+    <style name="Theme.Design.Light.BottomSheetDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light.NoActionBar" parent="@style/Theme.Design.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Design.NoActionBar" parent="@style/Theme.Design">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat" parent="@style/Base.ThemeOverlay.AppCompat" />
+    <style name="ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.ActionBar" />
+    <style name="ThemeOverlay.AppCompat.Dark" parent="@style/Base.ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="ThemeOverlay.AppCompat.Dialog" parent="@style/Base.ThemeOverlay.AppCompat.Dialog" />
+    <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="@style/Base.ThemeOverlay.AppCompat.Dialog.Alert" />
+    <style name="ThemeOverlay.AppCompat.Light" parent="@style/Base.ThemeOverlay.AppCompat.Light" />
+    <style name="Widget.AppCompat.ActionBar" parent="@style/Base.Widget.AppCompat.ActionBar" />
+    <style name="Widget.AppCompat.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.ActionBar.Solid" />
+    <style name="Widget.AppCompat.ActionBar.TabBar" parent="@style/Base.Widget.AppCompat.ActionBar.TabBar" />
+    <style name="Widget.AppCompat.ActionBar.TabText" parent="@style/Base.Widget.AppCompat.ActionBar.TabText" />
+    <style name="Widget.AppCompat.ActionBar.TabView" parent="@style/Base.Widget.AppCompat.ActionBar.TabView" />
+    <style name="Widget.AppCompat.ActionButton" parent="@style/Base.Widget.AppCompat.ActionButton" />
+    <style name="Widget.AppCompat.ActionButton.CloseMode" parent="@style/Base.Widget.AppCompat.ActionButton.CloseMode" />
+    <style name="Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+    <style name="Widget.AppCompat.ActionMode" parent="@style/Base.Widget.AppCompat.ActionMode" />
+    <style name="Widget.AppCompat.ActivityChooserView" parent="@style/Base.Widget.AppCompat.ActivityChooserView" />
+    <style name="Widget.AppCompat.AutoCompleteTextView" parent="@style/Base.Widget.AppCompat.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Button" parent="@style/Base.Widget.AppCompat.Button" />
+    <style name="Widget.AppCompat.Button.Borderless" parent="@style/Base.Widget.AppCompat.Button.Borderless" />
+    <style name="Widget.AppCompat.Button.Borderless.Colored" parent="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+    <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="@style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+    <style name="Widget.AppCompat.Button.Colored" parent="@style/Base.Widget.AppCompat.Button.Colored" />
+    <style name="Widget.AppCompat.Button.Small" parent="@style/Base.Widget.AppCompat.Button.Small" />
+    <style name="Widget.AppCompat.ButtonBar" parent="@style/Base.Widget.AppCompat.ButtonBar" />
+    <style name="Widget.AppCompat.ButtonBar.AlertDialog" parent="@style/Base.Widget.AppCompat.ButtonBar.AlertDialog" />
+    <style name="Widget.AppCompat.CompoundButton.CheckBox" parent="@style/Base.Widget.AppCompat.CompoundButton.CheckBox" />
+    <style name="Widget.AppCompat.CompoundButton.RadioButton" parent="@style/Base.Widget.AppCompat.CompoundButton.RadioButton" />
+    <style name="Widget.AppCompat.CompoundButton.Switch" parent="@style/Base.Widget.AppCompat.CompoundButton.Switch" />
+    <style name="Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">?colorControlNormal</item>
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner" parent="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Text" />
+    <style name="Widget.AppCompat.EditText" parent="@style/Base.Widget.AppCompat.EditText" />
+    <style name="Widget.AppCompat.ImageButton" parent="@style/Base.Widget.AppCompat.ImageButton" />
+    <style name="Widget.AppCompat.Light.ActionBar" parent="@style/Base.Widget.AppCompat.Light.ActionBar" />
+    <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.Light.ActionBar.Solid" />
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="@style/Widget.AppCompat.Light.ActionBar.Solid" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabBar" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse" parent="@style/Widget.AppCompat.Light.ActionBar.TabBar" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabText" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabText" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabView" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabView" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse" parent="@style/Widget.AppCompat.Light.ActionBar.TabView" />
+    <style name="Widget.AppCompat.Light.ActionButton" parent="@style/Widget.AppCompat.ActionButton" />
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode" parent="@style/Widget.AppCompat.ActionButton.CloseMode" />
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow" parent="@style/Widget.AppCompat.ActionButton.Overflow" />
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse" parent="@style/Widget.AppCompat.ActionMode" />
+    <style name="Widget.AppCompat.Light.ActivityChooserView" parent="@style/Widget.AppCompat.ActivityChooserView" />
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView" parent="@style/Widget.AppCompat.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner" parent="@style/Widget.AppCompat.DropDownItem.Spinner" />
+    <style name="Widget.AppCompat.Light.ListPopupWindow" parent="@style/Widget.AppCompat.ListPopupWindow" />
+    <style name="Widget.AppCompat.Light.ListView.DropDown" parent="@style/Widget.AppCompat.ListView.DropDown" />
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="@style/Base.Widget.AppCompat.Light.PopupMenu" />
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.Light.PopupMenu.Overflow" />
+    <style name="Widget.AppCompat.Light.SearchView" parent="@style/Widget.AppCompat.SearchView" />
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar" />
+    <style name="Widget.AppCompat.ListMenuView" parent="@style/Base.Widget.AppCompat.ListMenuView" />
+    <style name="Widget.AppCompat.ListPopupWindow" parent="@style/Base.Widget.AppCompat.ListPopupWindow" />
+    <style name="Widget.AppCompat.ListView" parent="@style/Base.Widget.AppCompat.ListView" />
+    <style name="Widget.AppCompat.ListView.DropDown" parent="@style/Base.Widget.AppCompat.ListView.DropDown" />
+    <style name="Widget.AppCompat.ListView.Menu" parent="@style/Base.Widget.AppCompat.ListView.Menu" />
+    <style name="Widget.AppCompat.PopupMenu" parent="@style/Base.Widget.AppCompat.PopupMenu" />
+    <style name="Widget.AppCompat.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.PopupMenu.Overflow" />
+    <style name="Widget.AppCompat.PopupWindow" parent="@style/Base.Widget.AppCompat.PopupWindow" />
+    <style name="Widget.AppCompat.ProgressBar" parent="@style/Base.Widget.AppCompat.ProgressBar" />
+    <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <style name="Widget.AppCompat.RatingBar" parent="@style/Base.Widget.AppCompat.RatingBar" />
+    <style name="Widget.AppCompat.RatingBar.Indicator" parent="@style/Base.Widget.AppCompat.RatingBar.Indicator" />
+    <style name="Widget.AppCompat.RatingBar.Small" parent="@style/Base.Widget.AppCompat.RatingBar.Small" />
+    <style name="Widget.AppCompat.SearchView" parent="@style/Base.Widget.AppCompat.SearchView" />
+    <style name="Widget.AppCompat.SearchView.ActionBar" parent="@style/Base.Widget.AppCompat.SearchView.ActionBar" />
+    <style name="Widget.AppCompat.SeekBar" parent="@style/Base.Widget.AppCompat.SeekBar" />
+    <style name="Widget.AppCompat.SeekBar.Discrete" parent="@style/Base.Widget.AppCompat.SeekBar.Discrete" />
+    <style name="Widget.AppCompat.Spinner" parent="@style/Base.Widget.AppCompat.Spinner" />
+    <style name="Widget.AppCompat.Spinner.DropDown" parent="@style/Widget.AppCompat.Spinner" />
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="@style/Widget.AppCompat.Spinner.DropDown" />
+    <style name="Widget.AppCompat.Spinner.Underlined" parent="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+    <style name="Widget.AppCompat.TextView.SpinnerItem" parent="@style/Base.Widget.AppCompat.TextView.SpinnerItem" />
+    <style name="Widget.AppCompat.Toolbar" parent="@style/Base.Widget.AppCompat.Toolbar" />
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="@style/Base.Widget.AppCompat.Toolbar.Button.Navigation" />
+    <style name="Widget.Compat.NotificationActionContainer" parent="" />
+    <style name="Widget.Compat.NotificationActionText" parent="" />
+    <style name="Widget.Design.AppBarLayout" parent="@style/Base.Widget.Design.AppBarLayout" />
+    <style name="Widget.Design.BottomNavigationView" parent="">
+        <item name="elevation">@dimen/design_bottom_navigation_elevation</item>
+        <item name="itemBackground">?selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
+        <item name="android:background">?android:colorBackground</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_peekHeight">auto</item>
+        <item name="behavior_skipCollapsed">false</item>
+    </style>
+    <style name="Widget.Design.CollapsingToolbar" parent="@android:style/Widget">
+        <item name="expandedTitleMargin">32.0dip</item>
+        <item name="statusBarScrim">?colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="statusBarBackground">?colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
+        <item name="android:background">@drawable/design_fab_background</item>
+        <item name="backgroundTint">?colorAccent</item>
+        <item name="borderWidth">@dimen/design_fab_border_width</item>
+        <item name="elevation">@dimen/design_fab_elevation</item>
+        <item name="fabSize">auto</item>
+        <item name="pressedTranslationZ">@dimen/design_fab_translation_z_pressed</item>
+        <item name="rippleColor">?colorControlHighlight</item>
+    </style>
+    <style name="Widget.Design.NavigationView" parent="">
+        <item name="android:background">?android:windowBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:maxWidth">@dimen/design_navigation_max_width</item>
+        <item name="elevation">@dimen/design_navigation_elevation</item>
+    </style>
+    <style name="Widget.Design.ScrimInsetsFrameLayout" parent="">
+        <item name="insetForeground">#44000000</item>
+    </style>
+    <style name="Widget.Design.Snackbar" parent="@android:style/Widget">
+        <item name="android:background">@drawable/design_snackbar_background</item>
+        <item name="android:paddingLeft">@dimen/design_snackbar_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/design_snackbar_padding_horizontal</item>
+        <item name="android:maxWidth">@dimen/design_snackbar_max_width</item>
+        <item name="android:minWidth">@dimen/design_snackbar_min_width</item>
+        <item name="elevation">@dimen/design_snackbar_elevation</item>
+        <item name="maxActionInlineWidth">@dimen/design_snackbar_action_inline_max_width</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="Widget.Design.TextInputLayout" parent="@android:style/Widget">
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
+        <item name="hintTextAppearance">@style/TextAppearance.Design.Hint</item>
+        <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+        <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
+        <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
+    </style>
+</resources>
